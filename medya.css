@@ -1,0 +1,27 @@
+/*
+  medya.css
+  Projedeki medya (video, iframe) ve medya başlıkları için özel stiller.
+  Son güncelleme: 21 Haziran 2025
+*/
+
+.medya {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe {
+    width: 50rem;
+    margin: 12px;
+    padding: auto;
+
+}
+
+.medya h2 {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+body {
+    background-image: url(/img/arka.webp)
+}

@@ -1,0 +1,144 @@
+/*
+anasayfa.css
+Temel kart tabanlı HTML/CSS şablonu için ana stil dosyası.
+Kategoriler: Teknoloji, Yazılım, Spor, Magazin
+Son güncelleme: 21 Haziran 2025
+*/
+
+/* Kart ana kapsayıcıları ve kart stilleri */
+.card-teknoloji {
+    width: 15rem;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 3px;
+}
+
+.card-teknoloji img {
+    width: 100%;
+    height: 150px;
+}
+
+.card-img {
+    position: relative;
+}
+
+.card-img span {
+    position: absolute;
+    left: 0;
+    transition: 0.3s;
+}
+
+.card-text {
+    padding: 0;
+    margin: 0;
+}
+
+.card-text h2 {
+    border-bottom: 1px solid #cccc;
+    margin-top: 0.5em;
+    margin-left: 0;
+    text-align: left;
+    padding-left: 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Renkli başlıklar ve kategori başlıkları */
+.baslik,
+.baslik2,
+.baslik3,
+.baslik4 {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto 16px auto;
+    margin-left: 0;
+    border-left: 11px solid blue;
+    margin-top: 11px;
+    padding: 10px;
+}
+
+span:hover {
+    padding-left: 12px;
+    background-color: aqua;
+}
+
+/* Kategoriye özel arka plan renkleri */
+.teknoloji {
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.yazilim {
+    background-color: brown;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.spor {
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.magazin {
+    background-color: rgb(245, 13, 195);
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.baslik2 {
+    border-left: 11px solid brown;
+}
+
+.baslik3 {
+    border-left: 11px solid green;
+}
+
+.baslik4 {
+    border-left: 11px solid rgb(245, 13, 195);
+}
+
+/* Genel düzen ve hizalama ayarları */
+.section-group {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto 32px auto;
+}
+
+.baslik, .baslik2, .baslik3, .baslik4 {
+    width: 100%;
+    margin: 0 0 16px 0;
+    display: block;
+    align-items: unset;
+    padding: 10px;
+}
+
+.baslik {
+    border-left: 11px solid blue;
+    margin-top: 11px;
+}
+
+.baslik2 {
+    border-left: 11px solid brown;
+    margin-top: 11px;
+}
+
+.baslik3 {
+    border-left: 11px solid green;
+    margin-top: 11px;
+}
+
+.baslik4 {
+    border-left: 11px solid rgb(245, 13, 195);
+    margin-top: 11px;
+}

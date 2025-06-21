@@ -1,0 +1,34 @@
+/*
+  footer.css
+  Alt bilgi (footer) alanı için stil dosyası.
+  Son güncelleme: 21 Haziran 2025
+}
+.footer{
+display: flex;
+padding:3rem;
+background-color: #f1f1f1;
+border-top: 4px solid #ccc;
+justify-content: center;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 1rem;
+    transition: 0.7s;
+    letter-spacing: 1px;
+}
+
+.footer ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.footer ul li{
+    padding:2rem;
+}
+
+.footer a:hover{
+    color: blue;
+    background-color: #f1f1f1;
+}
